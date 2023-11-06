@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="box" id="form-field">
+        <h1 style="color: rgb(150, 240, 16); " >ERIK'S</h1><br><h1>  Login</h1>
+            <div>
+                <input class="login" id="email" type="text" placeholder="Nome ou Email" required>
+                    <div class="error" id="email-error" >Email incorreto</div>
+                    <div class="error" id="email-correct" >Email incorreto</div>
+            </div> <br><br>
+
+            <div>
+                <input class="senha" id="senha" type="password" autocomplete="current-password" placeholder="Senha forte" required>
+                    <div class="error" id="senha-error"> senha é obrigatoria</div>
+            </div> <br><br>
+
+        <button class="botao" id="send" onclick="aoClicar()">Enviar</button>
+    </div>
+</body>
+</html>
